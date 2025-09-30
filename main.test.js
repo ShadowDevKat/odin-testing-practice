@@ -25,12 +25,12 @@ test("Mul: 2*3=6", () => {
 });
 
 test('Caesar Cipher xyz become abc', () => {
-    expect(caesarCipher('xyz', 3)).toBe('abc')
-})
+    expect(caesarCipher('xyz', 3)).toBe('abc');
+});
 
 test("Caesar Cipher 'Hello, World!' becomes 'Khoor, Zruog!'", () => {
-    expect(caesarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!')
-})
+    expect(caesarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!');
+});
 
 test("analyzes the array [1,8,3,4,2,6] and provides an average, min, max, and length", () => {
     expect(analyzeArray([1, 8, 3, 4, 2, 6])).toEqual({
